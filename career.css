@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+  }
+  .wrapper .topnav{
+    background-color:black;
+    position:fixed;
+    top:0;
+    width:100%;
+  }
+  .wrapper .topnav .left a{
+    float:left;
+    display:inline;
+    color:white;
+    text-align:center;
+    padding:0px 17px;
+    text-decoration:none;
+    font-size:17px;
+    top:0;
+  }
+  .wrapper .topnav .left a:hover{
+    color:blue;
+  }
+  .wrapper .topnav .right a{
+     float:left;
+    display:inline;
+    color:white;
+    text-align:center;
+    padding:14px 18px;
+    text-decoration:none;
+    font-size:17px;
+  }
+  .wrapper .topnav .right a:hover{
+    background: #ddd;
+    color:white;
+  }
+  .wrapper .topnav .right a.active{
+    background-color:orange;
+    color:white;
+  }
+  .wrapper  .topnav1{
+  width: 100%;
+  background-color:rgb(255, 250, 250);
+   top:45px;
+   position:fixed;
+   padding:15px;
+  
+  }
+  .wrapper .topnav1 .left  .dropdown {
+  float:left;
+  padding-left:5px;
+  }
+  .wrapper .topnav1 .left  .dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  }
+  .wrapper .topnav1 .left .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gainsboro;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .wrapper .topnav1 .left .dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  }
+  .wrapper .topnav1 .left  .dropdown-content a:hover {
+                     background-color: #ccc;
+                         }
+  .wrapper .topnav1 .left   .dropdown:hover .dropdown-content {
+  display:block;
+  }
+  .wrapper .topnav1 .left .dropdown .dropbtn a{
+    color:black;
+    text-decoration:none;
+    font-size:17px;
+  }
+  .wrapper .topnav1 .left .dropdown .dropbtn a:hover{
+    color:blue;
+  }
+  .wrapper .topnav1 .left img{
+    float:left;
+   
+  }
+   .banner1 {   
+    background-image:url('doctorlab.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    text-align:center;
+   }
+   .banner1 h1{
+    position:absolute;
+    top:50%;
+    left:40%;
+     background-color: rgb(254, 255, 255);
+    color: rgb(136, 141, 119);
+     padding-left: 20px;
+     padding-right: 20px;
+    }
+    .banner2{
+        background-color:rgb(245, 247, 248);
+        height:400px;
+        width:100%;
+    }
+    .banner2 p{
+        text-align:center;
+        color:rgb(79, 79, 76);
+        padding-top:50px;
+        font-size:19px;
+    }
+    .banner4{
+        background-image: url("coffee2.jpg");
+        background-repeat: no-repeat;
+        background-size:100%;
+        height:300px;
+      }
+      .center{
+        padding-top: 35px;
+        text-align:center;
+        color:white;
+        font-size:20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .banner5{
+        height:400px;
+      }
+      .banner5 img{
+        padding-left:130px;
+      }
+      .left{
+        float:left;
+        padding-top:25px;
+        padding-left:130px;
+      }
+      .left #par1{
+        color:rgb(17, 211, 224);
+      }
+      #par1:hover{
+        color:greenyellow;
+      }
+      a{
+        text-decoration: none;
+        color:rgb(111, 114, 108);
+      }
+      a:hover{
+        color:lightskyblue;
+      }
+      button{
+        border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+      }
+      .button1{
+        background-color:rgb(19, 167, 235);
+        color: black; 
+        border: 2px solid rgb(19,167,235);
+      }
+      .button1:hover{
+        background-color: #4CAF50;
+        color: white;
+      }
+      .button2{
+        background-color:rgb(52, 211, 100);
+        color: black; 
+        border: 2px solid rgb(52, 211, 100);
+      }
+      .button2:hover{
+        background-color: #3db3c8;
+        color: white;
+      }
+      .banner6{
+        background-color:rgb(42, 2, 2);
+        width:100%;
+        height:95px;
+      }
+  
